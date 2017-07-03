@@ -1,0 +1,333 @@
+@font-face {
+	font-family: 'FlareLightGothic';
+	src: url('../fonts/FlareLightGothic.ttf');
+}
+
+	@font-face {
+		font-family: 'Franklin Gothic Book Regular';
+		src: url('../fonts/Franklin Gothic Book Regular.ttf');
+	}
+
+@font-face {
+	font-family: 'ChunkFiveExtraBold';
+	src: url('../fonts/ChunkFiveExtraBold.ttf');
+}
+
+@font-face {
+	font-family: 'AlexandriaFLF';
+	src: url('../fonts/AlexandriaFLF.ttf');
+}
+
+@font-face {
+	font-family: 'AlexandriaFLF-Bold';
+	src: url('../fonts/AlexandriaFLF-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'ColabThi';
+	src: url('../fonts/ColabThi.otf');
+
+}
+
+body {
+	background: #e0e0e0;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+section#home {
+	background: url(../img/bg_blue.png) no-repeat top center;
+}
+
+section {
+	width: 100%;
+	height: 100vh;	
+}
+
+header {
+    display: flex;
+    height: 46px;
+    padding-top: 30px;
+    margin-bottom: 65px;
+}
+
+.logo-title h2 {
+    font-family: 'FlareLightGothic';
+    color: #ccc9c9;
+    font-size: 30px;
+    font-weight: lighter;
+    display: inline-block;
+    line-height: 0;
+}
+
+.logo img {
+    width: 33px;
+    vertical-align: middle;
+}
+
+.container {
+	width: 998px;
+	margin: 0 auto;
+}
+
+.logo {
+    display: inline;
+    margin-top: -7px;
+
+}
+
+.logo-title h6 {
+    font-family: 'Franklin Gothic Book Regular';
+    font-size: 12px;
+    color: #fff;
+    font-weight: lighter;
+    text-transform: lowercase;
+    margin-left: 42px;
+    line-height: 0px;
+    margin-top: 0px;
+}
+
+.logo-title {
+    width: 190px;
+    display: inline;
+    margin-left: 4px;
+}
+
+.right-items li {
+    list-style: none;
+    display: inline;
+}
+
+.right-items a {
+	color: #d2d2d5;
+	text-decoration: none;
+	margin-left: 35px;
+	padding: 5px 10px;
+}
+
+.right-items {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+    width: 763px;
+    height: 40px;
+    margin-left: auto;
+    align-items: center;
+}
+
+a.active {
+	background: #d2d2d5;
+	color: #161628;
+	
+	border-radius: 5px;
+}
+
+.right-items a:hover {
+	background: #d2d2d5;
+	color: #161628;
+	border-radius: 5px;
+	 transition: 1.3s ease;
+	 cursor: pointer;
+}
+
+.main {
+    float: left;
+    text-align: right;
+    margin-top: 29px;
+}
+
+.main h1 {
+    font-family: 'ChunkFiveExtraBold';
+    color: #e7e8ea;
+    margin-bottom: -4px;
+
+}
+
+.main h2 {
+		font-family: 'AlexandriaFLF';
+		color: #e7e8ea;
+		display: inline;
+		text-align: right;
+		font-size: 33px;
+}
+
+.main h3 {
+	font-family: 'AlexandriaFLF-Bold';
+	color: #e7e8ea;
+	display: inline;
+	text-align: right;
+	font-size: 33px;
+}
+
+.main h4 {
+    font-family: 'ColabThi';
+    font-size: 14px;
+    color: #e7e8ea;
+    font-weight: lighter;
+    text-align: right;
+    margin-top: 4px;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.main button {
+    background: rgba(237, 237, 237, 0.84);
+    color: #070606;
+    padding: 8px 50px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.main button:hover {
+	background: none;
+	border: 1px solid #fff;
+color: #dbd5d5;
+transition: 1.3s ease;
+}
+
+img.shadow {
+	display: block;
+	margin-left: 18px;
+}
+
+img.i-pad {
+    margin-left: 40px;
+    margin-bottom: -20px;
+}
+.classification-1 {
+    background: rgba(255, 255, 255, 0.24);
+    border: 2px solid #fff;
+    width: 235px;
+    height: 155px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.classification-1:hover {
+       background: rgba(255, 255, 255, 0.67);
+       transition: 1.3s ease;
+}
+
+.classification-2 {
+    background: rgba(255, 255, 255, 0.24);
+    border: 2px solid #fff;
+    width: 235px;
+    height: 155px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: -60px;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+img.ipad {
+	float: right;
+
+}
+
+img.ipad-2 {
+    margin: 0 auto;
+    width: 184px;
+    margin-left: 24px;
+    margin-top: 14px;
+}
+
+.classification-1 p {
+    color: #95959a;
+    margin-top: 125px;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-family: Calibri;
+    font-size: 16px;
+    
+}
+
+.classification-1 {
+
+}
+
+.suka {
+	display: inline;
+	width: 998px;
+	 height: 155px;
+
+}
+
+.classification-2 p {
+    color: #95959a;
+    margin-top: 125px;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-family: Calibri;
+    font-size: 16px;
+    margin-top: -1px;
+}
+
+
+img.ipad-3 {
+    margin: 0 auto;
+    width: 155px;
+    margin-left: 41px;
+    margin-top: 16px;
+}
+
+.classification-2:hover {
+       background: rgba(255, 255, 255, 0.67);
+       transition: 1.3s ease;
+}
+
+img.ipad-4 {
+    margin: 0 auto;
+    width: 162px;
+    margin-left: 41px;
+    margin-top: 16px;
+}
+
+.bla-bla h4 {
+    color: #505050;
+    font-size: 21px;
+    display: inline;
+    line-height: 0;
+    margin-left: 5px;
+}
+
+.bla-bla span {
+    color: #505050;
+    font-size: 14px;
+    width: 300px;
+    display: inline;
+    line-height: 0;
+    margin-left: 47px;
+    margin-top: -8px;
+    float: left;
+    margin-bottom: 18px;
+}
+.bla-bla img {
+	display: inline;
+	vertical-align: text-top;
+}
+
+.bla-bla p {
+    width: 350px;
+    font-size: 12px;
+}
+
+.lizz-tv {
+    display: -webkit-box;
+    margin-left: 0px;
+}
+
+.bla-bla {
+    margin-left: 50px;
+}
+
+.lists {
+	margin-bottom: 45px;
+}
