@@ -350,7 +350,7 @@ img.mail {
     font-family: 'OpenSans-Bold';
     color: #6d6e71;
     font-size: 17px;
-    margin-left: 23px;
+    margin-left: 32px;
 }
 
 
@@ -360,19 +360,16 @@ img.mail {
     font-family: 'OpenSans-Bold';
     color: #6d6e71;
     font-size: 17px;
-    margin-left: 33px;
+    margin-left: 37px;
 }
 
 
-
 .why-we p {
-    margin-left: 130px;
     font-size: 12px;
     width: 278px;
 }
 
 .why-we-2 p {
-    margin-left: 130px;
     font-size: 12px;
     width: 278px;
 }
@@ -417,8 +414,10 @@ img.line-whut {
     text-align: center;
     font-size: 16px;
     display: block;
-    padding-left: 62px;
+    padding-left: 110px;
     margin-top: -26px;
+    margin-left: 0;
+    width: 518px;
 }
 
 .what-we-do img {
