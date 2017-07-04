@@ -22,8 +22,11 @@ padding: 0;}
     height: 50px;
     width: 100%;
     background: #eceef4;
-    min-width: 233%;
     width: auto;
+}
+
+@media screen and (max-width:480px) { 
+
 }
 
 section {
@@ -44,6 +47,12 @@ section {
     margin-top: -42px;
     margin-left: 10px;
 }
+
+@media screen and (max-width:480px) { 
+
+}
+
+
 .top-menu-item-1 a {
 	margin-left: 15px;
 	 font-family: 'OpenSans-Bold';
