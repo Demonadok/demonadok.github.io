@@ -208,9 +208,15 @@ img.mail {
     align-items: center;
     height: 325px;
     z-index: 2;
+    margin-bottom: -156px;
 }
 
-.main img {
+.ggg {
+    width: 1246px;
+    margin: 0 auto;
+    height: 50px;
+}
+.ggg img {
     width: 50px;
     /* display: flex; */
     /* justify-content: center; */
@@ -223,8 +229,15 @@ img.mail {
 .main h3 {
     font-family: 'OpenSans-Light';
     color: #fff;
-    margin-left: 461px;
-    margin-top: -142px;
+    margin-left: 494px;
+    margin-top: -274px;
+    padding-left: 42px;
+    padding-top: 15px;
+    margin-bottom: -43px;
+    width: 414px;
+    z-index: 2;
+    height: 53px;
+    margin: 0 auto;
 }
 
 .slider {
