@@ -466,6 +466,8 @@ h6 {
     background: url(../img/back.png) no-repeat center;
     height: 677px;
     background-size: contain;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .title {
@@ -473,7 +475,7 @@ h6 {
     margin: 0 auto;
     display: flex;
     padding-top: 45px;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
 }
 
 .title img {
@@ -502,8 +504,9 @@ h6 {
 }
 
 .buttons {
-	width: 745px;
-	margin: 0 auto;
+    width: 745px;
+    margin: 0 auto;
+    margin-bottom: 29px;
 }
 
 .buttons button {
@@ -524,4 +527,46 @@ button.active, button:hover {
 	border: 1px solid #fff;
 	color: #6d6e71;
 	transition: 0.5s ease;
+}
+
+
+.items {
+    width: 819px;
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item-1 {
+    width: 183px;
+    height: 188px;
+    display: inline-block;
+    background: #fff;
+    padding: 17px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    /* margin: 0 auto; */
+}
+.item-1:first-child {
+	margin-left: 0;
+}
+
+.item-1 a {
+	width: 15px;
+
+}
+
+.item-1 img {
+    width: 150px;
+    margin-bottom: 14px;
+}
+img.link {
+	width: 15px;
+}
+
+img.more {
+    width: 15px;
+    float: right;
 }
