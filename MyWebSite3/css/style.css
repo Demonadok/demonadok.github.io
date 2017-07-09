@@ -639,58 +639,9 @@ footer {
     color: #a7a7a7;
 }
 
-.winner {
-    width: 405px;
-    color: #fff;
-    display: inline-block;
-    line-height: 40px;
-    /* font-size: 11px; */
-    text-transform: uppercase;
-    background: #333333;
-    height: 135px;
-    padding: 27px;
-    margin-left: 20px;
-}
 
-.winner-2 {
-    width: 405px;
-    color: #fff;
-    display: inline-block;
-    /* line-height: 40px; */
-    /* font-size: 11px; */
-    text-transform: uppercase;
-    background: #00c8c8;
-    height: 135px;
-    padding: 54px;
-    margin-left: 20px;
-}
 
-.winner-2 img {
-    width: 194px;
-    margin-left: 59px;
-}
 
-.social-networks {
-    width: 872px;
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 50px;
-}
-
-.social-networks h1, h4 {
-    font-size: 23px;
-    text-align: center;
-    padding: 10px;
-    color: #fff;
-    width: 314px;
-    margin: 0 auto;
-    padding: 22px;
-    line-height: 0px;
-}
-
-.social-networks h1 {
-	font-family: Roboto-Bold;
-}
 
 .footer {
     width: 1195px;
