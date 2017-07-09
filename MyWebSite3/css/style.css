@@ -441,7 +441,7 @@ img.img-wom {
 }
 
 .items {
-    margin-bottom: 120px;
+    margin-bottom: 88px;
     border-bottom: 1px solid #ccc;
     height: 989px;
 }
@@ -587,4 +587,122 @@ img.img-wom {
     width: 217px;
     overflow: hidden;
     margin-left: -32px;
+}
+
+.details h6 {
+	text-transform: uppercase;
+	color: #625c5e;
+	font-size: 12px;
+	font-family: Roboto-Bold;
+}
+
+.details {
+    width: 1156px;
+    margin: 0 auto;
+    margin-top: 45px;
+    height: 300px;
+    display: flex;
+}
+
+.details li {
+    list-style: none;
+    color: #727272;
+    font-size: 12px;
+}
+
+.details p {
+    list-style: none;
+    color: #727272;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.details a {
+	color: #727272;
+}
+
+.information {
+    display: inline-block;
+    margin-left: 74px;
+}
+
+.information:first-child {
+	margin-left: 0;
+}
+
+footer {
+    height: 30px;
+    background: #333333;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto-Bold';
+    color: #a7a7a7;
+}
+
+.winner {
+    width: 480px;
+    color: #fff;
+    display: inline-block;
+    line-height: 40px;
+    /* font-size: 11px; */
+    text-transform: uppercase;
+    background: #333333;
+    height: 135px;
+    padding: 27px;
+    margin-left: 20px;
+}
+
+.winner-2 {
+    width: 480px;
+    color: #fff;
+    display: inline-block;
+    /* line-height: 40px; */
+    /* font-size: 11px; */
+    text-transform: uppercase;
+    background: #00c8c8;
+    height: 135px;
+    padding: 54px;
+    margin-left: 20px;
+}
+
+.winner-2 img {
+    width: 194px;
+    margin-left: 80px;
+}
+
+.social-networks {
+    width: 1025px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.social-networks h1, h4 {
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    width: 314px;
+    margin: 0 auto;
+    padding: 22px;
+    line-height: 0px;
+}
+
+.social-networks h1 {
+	font-family: Roboto-Bold;
+}
+
+.footer {
+    width: 1195px;
+    height: 30px;
+    display: flex;
+    padding: 3px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer span {
+	display: inline;
+	float: right;
+	margin-left: 40px;
 }
