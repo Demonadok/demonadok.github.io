@@ -304,14 +304,15 @@ a.active {
 }
 
 .products span {
-	position: relative;
-	display: inline;
-	font-size: 25px;
+    position: relative;
+    display: inline;
+    font-size: 19px;
+    padding: 51px 13px 14px 5px;
 }
 
 .products h3 {
-	display: inline;
-	font-size: 16px;
+    display: inline;
+    font-size: 17px;
 }
 
 .products a {
@@ -327,7 +328,9 @@ a.active {
     width: 338px;
     height: 200px;
     display: inline-block;
+    margin-bottom: 190px;
 }
+
 .item-1 img {
     width: 335px;
 }
@@ -348,11 +351,240 @@ a.active {
 }
 
 .item-3 {
-     width: 338px;
-    height: 200px;
+    width: 338px;
+    height: 551px;
+    margin-bottom: -160px;
     display: inline-block;
 }
 
 .item-3 img {
     width: 500px;
+}
+
+.item-4 {
+    width: 338px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 42px;
+}
+
+.item-4 img {
+    width: 489px;
+}
+
+.item-5 {
+    width: 290px;
+    height: 466px;
+    display: inline-block;
+    margin-top: 185px;
+    margin-left: 180px;
+    position: absolute;
+    overflow: hidden;
+    background: #FFF;
+    box-shadow: 0px 0px 16px #ccc;
+}
+
+.item-5 img {
+    width: 390px;
+    left: -17%;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.item-5 h6 {
+    position: relative;
+    text-transform: uppercase;
+    top: 325px;
+    font-size: 10px;
+    line-height: 20px;
+    font-family: 'Roboto-Bold';
+    color: #727272;
+}
+
+.item-5 p {
+    position: relative;
+    /* text-transform: uppercase; */
+    font-size: 11px;
+    line-height: 20px;
+    font-family: 'Roboto-Regular';
+    color: #9d9d9d;
+    top: 313px;
+    line-height: 17px;
+}
+
+img.basket-2 {
+    width: 35px;
+    background: #727272;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    left: 67px;
+    top: 310px;
+    margin-left: 10px;
+}
+
+img.basket-2:hover {
+    background: #00c8c8;
+}
+
+.item-6 {
+    width: 290px;
+    height: 490px;
+    display: inline-block;
+    margin-top: 185px;
+    margin-left: 505px;
+    position: absolute;
+}
+
+img.img-wom {
+    height: 355px;
+}
+
+.items {
+    margin-bottom: 120px;
+    border-bottom: 1px solid #ccc;
+    height: 989px;
+}
+
+.lookbook {
+    width: 1195px;
+    margin: 0 auto;
+}
+
+.look-men {
+    width: 376px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.look-men img {
+    width: 160px;
+}
+
+.lookbook h1 {
+    text-transform: uppercase;
+    font-family: 'Roboto-Bold';
+    color: #575153;
+    display: inline-block;
+    /* margin-bottom: 15px; */
+    height: 61px;
+    line-height: 102px;
+}
+
+.lookbook h2 {
+    text-transform: uppercase;
+    color: #575153;
+    display: inline-block;
+    line-height: 122px;
+}
+
+.lookbook h1, h2 {
+    width: 182px;
+    font-size: 33px;
+    height: 38px;
+    position: absolute;
+    text-align: right;
+    /* margin-top: 49px; */
+}
+.lookbook img {
+    display: inline-block;
+
+}
+
+.lookbook p {
+    display: inline-block;
+    width: 185px;
+    position: absolute;
+    font-size: 14px;
+    margin-top: 140px;
+    line-height: 19px;
+}
+
+.lookbook button {
+    background: none;
+    border: 1px solid #737373 !important;
+    position: absolute;
+    margin-top: 271px;
+    margin-left: 34px;
+    padding: 9px 20px;
+    color: #737373;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Roboto-Bold;
+}
+.lookbook button:hover {
+     background: #00c8c8;
+    transition: 1s;
+     border: 1px solid #00c8c8;
+     color: #fff;
+}
+
+
+.lookbook-2 h1 {
+    text-transform: uppercase;
+    font-family: 'Roboto-Bold';
+    color: #575153;
+    display: inline-block;
+    /* margin-bottom: 15px; */
+    height: 61px;
+    line-height: 102px;
+}
+
+.lookbook-2 h2 {
+    text-transform: uppercase;
+    color: #575153;
+    display: inline-block;
+    line-height: 174px;
+}
+
+.lookbook-2 h1, h2 {
+    width: 182px;
+    font-size: 33px;
+    height: 38px;
+    position: absolute;
+    text-align: right;
+    margin-top: 49px;
+}
+.lookbook-2 img {
+    display: inline-block;
+
+}
+
+.lookbook-2 p {
+    display: inline-block;
+    width: 185px;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 156px;
+    line-height: 19px;
+}
+
+.lookbook-2 button {
+    background: #00c8c8;
+    position: absolute;
+    margin-top: 271px;
+    margin-left: 34px;
+    padding: 9px 20px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Roboto-Bold;
+}
+
+.lookbook-2 button:hover {
+   background: #048989;
+    transition: 1s;
+}
+
+.look-men-2 {
+    width: 435px;
+    height: 316px;
+    display: inline-block;
+    overflow: hidden;
+}
+.look-men-2 img {
+    width: 217px;
+    overflow: hidden;
+    margin-left: -32px;
 }
